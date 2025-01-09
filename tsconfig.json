@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "outDir": "./public",
     "rootDir": "src",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
@@ -7,5 +8,7 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "strictPropertyInitialization": false
-  }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
 }
